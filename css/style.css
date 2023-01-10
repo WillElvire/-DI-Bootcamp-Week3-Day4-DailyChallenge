@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(186, 62, 62);
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    color  : white;
+}
+
+.container .todo-form{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container .todo-form input {
+    height: 6vh;
+    width: 200px;
+    border: none;
+    outline: none;
+
+}
+
+.container .todo-form button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    width: 100px;
+}
+
+.container .todo-form button:hover {
+    background-color : gray;
+    color:white;
+}
+
+.container .listTasks {
+    width: 24%;
+    height: auto ;
+    background-color: white;
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 3%;
+}
+
+.container .listTasks li {
+    list-style-type: none;
+    border-bottom:  1px solid dodgerblue;
+}
+.container .listTasks li input[type='checkbox'] {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color:#e9e9e9;
+    margin-top: 40px;
+}
+
+.container .listTasks li span {
+    font-size: 25px;
+    margin-top:  -20px !important;
+}
+
+.container .listTasks li #close {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    color:white;
+    font-size: 15px;
+}
